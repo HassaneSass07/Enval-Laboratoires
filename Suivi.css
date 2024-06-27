@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 90vh;
+    background-color: #D7ECF1 !important;
+    overflow-x: hidden;
+}
+.je{
+    height:100vh;
+}
+
+.class{
+    height: 90vh;
+    width: 99%;
+}
+/* Ajoutez ce style dans votre fichier CSS ou dans la balise style de votre document HTML */
+.input-group input:focus {
+    outline: none;
+    box-shadow: none;
+}
+.btnVoir{
+    background-color: #549EAD;
+}

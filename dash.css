@@ -1,0 +1,91 @@
+
+body{
+    width: 100%;
+    height: 90vh;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    background-color: #D7ECF1 !important;
+    overflow-x: hidden;
+}
+.je{
+    height:100vh;
+}
+
+.box {
+    background-color: #176e82;
+    position: relative;  
+    height: 20em;
+    border-radius: 15px;
+  }
+.box1 {
+    background-color: #f7f8f8;
+    position: relative;  
+    height: 20em;
+    border-radius: 15px;
+  }
+
+
+.negatifIcon i{
+    padding: 6px 7px 6px 7px;
+    border-radius: 50%;
+    background-color: #C7DEE3;
+    color: #176e82;
+}
+svg circle {
+    fill: none;
+    stroke: #62B2C2;
+    stroke-width: 11px;
+    transform: translate(5px, 5px);
+    stroke-linecap: round;
+    stroke-dasharray: 110px;
+    stroke-dashoffset: 23px;
+    
+}
+
+
+svg .circle_progress {
+    fill: none;
+    stroke: #FFF;
+    stroke-width: 11px;
+    stroke-linecap: round;
+    stroke-dasharray: 310 100px;
+    stroke-dashoffset: 688px;
+    
+}
+
+
+
+.pourcent p {
+    font-size: 1.4em; 
+    margin-bottom: 45%;
+}
+
+span {
+    position: absolute;
+    top: 64%;
+    text-align: center;
+    transform: translate(-200%, -50%);
+    font-size: 1.5em;
+    font-weight: 400;
+    color: white;
+}
+.responsive{
+
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .responsive{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .responsive .box{
+        width: 100%;
+        margin: auto;
+    }
+     /* #myChart{
+        width: 500px !important;
+        height: 400px !important;
+    } */
+    
+}

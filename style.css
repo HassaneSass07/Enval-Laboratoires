@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.outline-none input:focus {
+    outline: none;
+  }
+  .btnConnexion{
+    background-color: #488997;
+    border: none;
+    padding:8px;
+  }
+  
+  

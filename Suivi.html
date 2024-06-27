@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suivi</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+  <link rel="stylesheet" href="Suivi.css">
+</head>
+<body>
+    <main>
+        <div class="row">
+          <div class="col-sm-2 mb-3 mb-sm-0">
+            <div class="card">
+              <div class="je">
+                <div>
+                  <img
+                    class="w-100"
+                    src="/enval_transparent.png 13-56-55-423.png"
+                    alt=""
+                  />
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="mb-4">
+                      <a
+                        href="dashboard.html"
+                        class="text-nowrap d-flex p-2 rounded justify-content-start gap-2 text-decoration-none text-dark"
+                      >
+                        <i class="bi bi-grid"></i>Dashboard
+                      </a>
+                    </div>
+                    <div class="mb-4">
+                      <a href="Facture.html"
+                        class="text-nowrap d-flex p-2 rounded justify-content-start gap-2 text-decoration-none text-dark"
+                      >
+                        <i class="bi bi-person-circle"></i>Facture
+                      </a>
+                    </div>
+                    <div class="mb-4">
+                      <a 
+                        href="Commande.html"
+                        class="text-nowrap d-flex justify-content-start rounded p-2 gap-2 text-decoration-none text-dark"
+                      >
+                        <i class="bi bi-car-front-fill"></i>Commande
+                      </a>
+                    </div>
+                    <div class="mb-4">
+                      <a style="background-color: #d7ecf1;"
+                        href="Suivi.html"
+                        class="text-nowrap d-flex justify-content-start rounded p-2 gap-2 text-decoration-none text-dark"
+                      >
+                        <i class="bi bi-bag"></i>Suivi
+                      </a>
+                    </div>
+                    <div>
+                      <a
+                        href="Service.html"
+                        class="text-nowrap d-flex justify-content-start gap-2 text-decoration-none text-dark"
+                      >
+                        <i class="bi bi-chat-left-text"></i>Service Client
+                      </a>
+                    </div>
+                    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                    <div class="mb-4">
+                      <a
+                        href=""
+                        class="text-nowrap d-flex justify-content-start gap-2 text-decoration-none text-dark"
+                      >
+                        <i class="bi bi-gear"></i>Paramètres Compte
+                      </a>
+                    </div>
+                    <div>
+                      <a
+                        href="index.html"
+                        class="text-nowrap d-flex justify-content-start gap-2 text-decoration-none text-dark"
+                      >
+                        <i class="bi bi-box-arrow-left"></i>Déconnexion
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-10">
+            <div class="card p-4">
+              <div class="card-body">
+                <div class="position-absolute top-0 end-0">
+                  <img src="logo.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="bg-white rounded class" style="overflow-x: scroll;">
+              <table class="table col-md-11" style="height: 70vh">
+                <br /><br />
+                <hr />
+                <div class="row">
+                  <div class="col-sm-8 mb-3 mb-sm-0">
+                    <h5 class="card-title text-center fs-2 p-3">Suivi des échantillons</h5>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="input-group">
+                      <span class="input-group-text"
+                        ><i class="bi bi-search"></i
+                      ></span>
+                      <input class="col-md-12 p-2 form-control" type="text" />
+                    </div>
+                  </div>
+                </div>
+                <tr>
+                  <td class="text-center border-end border-top fs-5">Lot</td>
+                  <td class="text-center border-end border-top fs-5">État</td>
+                  <td class="text-center border-end border-top fs-5">Date prévue</td>
+                  <td class="text-center border-end border-top fs-5">Rapport</td>
+                  <td class="text-center border-end border-top fs-5">Cliquez pour voir le rapport</td>
+                </tr>
+                <tr>
+                  <td class="text-center border-end fs-5">TE202303001</td>
+                  <td class="text-center border-end fs-5">Reçu</td>
+                  <td class="text-center border-end fs-5">12/03/2023</td>
+                  <td class="text-center border-end fs-5">Non disponible</td>
+                  <td class="text-center border-end fs-5">
+                    <button 
+                     class="col-md-2 p-1 rounded btnVoir border-0 fs-5 text-white">                    
+                      Voir
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center border-end fs-5">TE202302023</td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5">
+                    <button class="col-md-2 p-1 rounded btnVoir border-0 fs-5"><a href="Detail.html" class="text-white text-decoration-none">Voir</a>
+                      
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center border-end fs-5">TE20230190</td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5">
+                    <button
+                      class="col-md-2 p-1 rounded btnVoir border-0 fs-5 text-white"
+                    >
+                      Voir
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center border-end fs-5">Carbonate</td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5">
+                    <button
+                      class="col-md-2 p-1 rounded btnVoir border-0 fs-5 text-white"
+                    >
+                      Voir
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center border-end fs-5">Chlourire</td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5">
+                    <button
+                      class="col-md-2 p-1 rounded btnVoir border-0 fs-5 text-white"
+                    >
+                      Voir
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center border-end fs-5">CO2 libre</td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5">
+                    <button
+                      class="col-md-2 p-1 rounded btnVoir border-0 fs-5 text-white"
+                    >
+                      Voir
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center border-end fs-5">Conductivité électrique</td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5">
+                    <button
+                      class="col-md-2 p-1 rounded btnVoir border-0 fs-5 text-white"
+                    >
+                      Voir
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center border-end fs-5">pH/Température</td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5">
+                    <button
+                      class="col-md-2 p-1 rounded btnVoir border-0 fs-5 text-white"
+                    >
+                      Voir
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center border-end fs-5">Couleur brute</td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5"></td>
+                  <td class="text-center border-end fs-5">
+                    <button
+                      class="col-md-2 p-1 rounded btnVoir border-0 fs-5 text-white"
+                    >
+                      Voir
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                    <td class="text-center border-end fs-5">Cyanure</td>
+                    <td class="text-center border-end fs-5"></td>
+                    <td class="text-center border-end fs-5"></td>
+                    <td class="text-center border-end fs-5"></td>
+                    <td class="text-center border-end fs-5">
+                      <button
+                        class="col-md-2 p-1 rounded btnVoir border-0 fs-5 text-white"
+                      >
+                        Voir
+                      </button>  
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </main>
+  
+    
+</body>
+</html>
